@@ -1,5 +1,7 @@
 body{
     font-family: 'Abril Fatface', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0%;
 
 }
@@ -7,7 +9,8 @@ h1{
     font-size: 30px;
 }
 span{
-    color: blueviolet;
+ font-size: 40px;
+    color: rgb(161, 106, 235);
 }
 .flexible-container{
     display:flex;
@@ -16,6 +19,7 @@ span{
 }
 .firstclass{
     width: 50%;
+    length:5000px
     padding-left: 5%;
 }
 
@@ -24,7 +28,7 @@ span{
 }
 .link{
     color: rgb(7, 0, 2);
-    background-image:linear-gradient(purple,orange);
+    background-image:linear-gradient(rgb(202, 132, 202),rgb(201, 192, 112));
     padding: 1px;
     border-radius: 2px;
 }
@@ -41,3 +45,29 @@ span{
         background-repeat: no-repeat;
         background-position: left;
 }
+.color{color: olive;}
+.editing{
+width: 50%;
+padding-left: 5%;
+box-shadow:10px 10px 40px slategrey;
+padding-left:10px;
+margin-left: 5%;
+border-radius: 5px ;
+
+
+}
+
+#border1{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,skyblue)  ;
+    border-image-slice: 1;
+}  
+#border{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(63, 212, 100),rgb(165, 93, 45))  ;
+    border-image-slice: 1;
+}  
+footer{
+    text-align: center;
+}
+#huhu {font-size: 50px;}
