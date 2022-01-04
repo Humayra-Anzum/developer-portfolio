@@ -1,7 +1,31 @@
 body{
     font-family: 'Abril Fatface', cursive;
+    margin: 0%;
 
 }
 h1{
-    font-size: 50 px;
+    font-size: 30px;
+}
+span{
+    color: blueviolet;
+}
+section{
+    display:flex;
+}
+.firstclass{
+    width: 50%;
+    padding-left: 5%;
+}
+.firstclass img {
+    width:60%
+}
+.link{
+    color: rgb(7, 0, 2);
+    background-image:linear-gradient(purple,orange);
+    padding: 1px;
+    border-radius: 2px;
+}
+.banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
 }
