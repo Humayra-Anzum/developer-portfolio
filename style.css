@@ -11,6 +11,7 @@ span{
 }
 section{
     display:flex;
+    margin-bottom: 60px;
 }
 .firstclass{
     width: 50%;
@@ -28,4 +29,9 @@ section{
 .banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.part2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
